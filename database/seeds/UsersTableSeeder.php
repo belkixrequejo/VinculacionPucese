@@ -13,15 +13,15 @@ class UsersTableSeeder extends Seeder
     {
 		$data = array(
         	[
-				'nombre'    => 'Maritza',
-				'apellidos' => 'Requejo',
-				'direccion' => 'Direccion de Administradores',
+				'nombre'    => 'Jair',
+				'apellidos' => 'Bedoya',
+				'direccion' => 'Administrador',
                 'cedula'    => '1004601078',
                 'estado'=> '0',
                 
-				'email'   	=> 'belkixrequejo2208@gmail.com',
-                'fecha_nacimiento'=> '1998-08-14',
-				'password'  => bcrypt('12345678'),
+				'email'   	=> 'jair.bedoya@pucese.edu.ec',
+                'fecha_nacimiento'=> '1997-06-17',
+				'password'  => bcrypt('1234567890'),
 				'foto'    => 'img/default-user.png',
                 'id_titulo'=> '1',
                 'id_parroquia'=> '1',
